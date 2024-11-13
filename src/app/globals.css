@@ -3,23 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  background-image: linear-gradient(to right, #0f172a, #374151);
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    background-image: linear-gradient(to right, #0f172a, #374151);
+    --foreground: black;
   }
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #0f172a, #374151);
 }
-
+.que {
+  @media only screen and (orientation: portrait) {
+    font-size: xx-large;
+  }
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

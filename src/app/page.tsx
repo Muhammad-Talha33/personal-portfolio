@@ -10,7 +10,6 @@ import { SiVisualstudiocode } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -43,7 +42,8 @@ export default function Home() {
             <p className="mb-8 leading-relaxed ml-3 font-sans">
               Passionate about AI (Artificial Intelligence) and Web development
               <br />
-              Currently enrolled in the Governor's Initiative IT Program. <br />
+              Currently enrolled in the Governor&apos;s Initiative IT Program.{" "}
+              <br />
               Also, a digital creator sharing AI-generated art on Instagram.
             </p>
             <div className="flex justify-center">

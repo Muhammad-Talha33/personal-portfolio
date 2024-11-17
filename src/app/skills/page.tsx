@@ -6,7 +6,6 @@ import { SiTypescript } from "react-icons/si";
 import { SiVisualstudiocode } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa";
 
 function page() {
   return (

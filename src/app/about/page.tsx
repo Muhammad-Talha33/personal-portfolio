@@ -2,7 +2,7 @@
 
 import Typewriter from "typewriter-effect";
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
+
 function page() {
   return (
     <section
@@ -28,7 +28,8 @@ function page() {
           <p className="mb-8 leading-relaxed ml-3 font-sans">
             Passionate about AI (Artificial Intelligence) and Web development
             <br />
-            Currently enrolled in the Governor's Initiative IT Program. <br />
+            Currently enrolled in the Governor&apos;s Initiative IT Program.{" "}
+            <br />
             Also, a digital creator sharing AI-generated art on Instagram.
           </p>
           {/* <div className="flex justify-center">
